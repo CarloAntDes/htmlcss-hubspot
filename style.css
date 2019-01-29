@@ -28,7 +28,7 @@
 
 .top-bar {
   height: 10vh;
-  width: 90vw;
+  width: 95vw;
   margin: auto;
   line-height: 10vh;
 }
@@ -63,7 +63,7 @@
 }
 
 .contain {
-  width: 60vw;
+  width: 85vw;
   margin: auto;
 }
 
@@ -92,4 +92,21 @@
   padding: 1vh;
   margin: 5vh 1vh 1vh 1vh;
   line-height: 100%;
+}
+
+.backhead {
+  height: 60vh;
+  background-image: url("img/header.png");
+  background-size: cover;
+}
+.relative {
+  position: relative;
+}
+
+
+.absolute {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  height: 100%;
 }
