@@ -73,23 +73,23 @@
 }
 
 #log-in {
-  color:#ff7a59;
+  color: #ff7a59;
   background: #fff;
   border: 1px solid #ff7a59;
   border-radius: 0.1875rem;
   text-align: center;
-  padding:10px;
-  margin:20px;
+  padding: 1vh;
+  margin: 5vh 1vh 1vh 1vh;
   line-height: 100%;
 }
 
 #gethub {
-  color:#fff;
+  color: #fff;
   background-color:#ff7a59;
   border: 1px solid #ff7a59;
   border-radius: 0.1875rem;
   text-align: center;
-  padding:10px;
-  margin:20px 10px;
+  padding: 1vh;
+  margin: 5vh 1vh 1vh 1vh;
   line-height: 100%;
 }
