@@ -65,6 +65,7 @@
 .contain {
   width: 85vw;
   margin: auto;
+  height: 100%;
 }
 
 .height-line {
@@ -94,8 +95,8 @@
   line-height: 100%;
 }
 
-.backhead {
-  height: 60vh;
+header {
+  height: 500px;
   background-image: url("img/header.png");
   background-size: cover;
 }
@@ -103,10 +104,31 @@
   position: relative;
 }
 
+.pd-50 {
+  padding-top: 50px;
+}
 
-.absolute {
+.pd-20 {
+  padding-top: 20px;
+}
+
+.head-cont {
+  height: 500px;
+  width: 300px;
+}
+
+.head-all {
   position: absolute;
-  top: 50%;
-  transform: translatey(-50%);
-  height: 100%;
+  top: 15%;
+}
+
+#getfree {
+  color: black;
+  background: white;
+  border-radius: 0.1875rem;
+  text-align: center;
+  padding: 2px;
+  margin-top: 20px;
+  line-height: 100%;
+  width: 50%;
 }
