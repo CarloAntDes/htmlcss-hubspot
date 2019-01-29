@@ -98,8 +98,10 @@
 header {
   height: 500px;
   background-image: url("img/header.png");
+
   background-size: cover;
 }
+
 .relative {
   position: relative;
 }
@@ -114,7 +116,7 @@ header {
 
 .head-cont {
   height: 500px;
-  width: 300px;
+  width: 400px;
 }
 
 .head-all {
