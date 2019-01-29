@@ -155,13 +155,28 @@ main img {
 
 .main-cent {
   background-color: white;
-}
-
-.main-right {
-  height: 250px;
   width: 100%;
 }
 
+.main-left {
+  width: 50%;
+
+}
+.main-right {
+  height: 250px;
+  width: 50%;
+}
+
+.features > span {
+  margin-left: 10px;
+}
+.features:first-child {
+  margin-left: none;
+}
+/* .main-left-absolute {
+  position: absolute;
+transform: translatex(-50%);
+} */
 .main-right-absolute {
   position: absolute;
   top: 50%;
