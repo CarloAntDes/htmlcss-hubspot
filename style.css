@@ -58,15 +58,20 @@
   position: sticky;
 }
 
-.lightgreen {
+.lightgrey {
   background-color: #f5f8fa
 }
 
-.contain {
+.contain1 {
   width: 85vw;
   margin: auto;
-  height: 100%;
 }
+
+.contain2 {
+  width: 56vw;
+  margin: auto;
+}
+
 
 .height-line {
   height: 15vh;
@@ -84,7 +89,7 @@
   line-height: 100%;
 }
 
-#gethub {
+.gethub {
   color: #fff;
   background-color:#ff7a59;
   border: 1px solid #ff7a59;
@@ -114,6 +119,10 @@ header {
   padding-top: 20px;
 }
 
+.mt-50 {
+  margin-top: 50px;
+}
+
 .head-cont {
   height: 500px;
   width: 400px;
@@ -133,4 +142,28 @@ header {
   margin-top: 20px;
   line-height: 100%;
   width: 50%;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+main img {
+  height: 250px;
+  padding: 50px;
+}
+
+.main-cent {
+  background-color: white;
+}
+
+.main-right {
+  height: 250px;
+  width: 100%;
+}
+
+.main-right-absolute {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
 }
